@@ -5,7 +5,7 @@
 
     <style>
         body {
-            background-image: url("kardec.png");
+            background-image: url("../img/PalaisRoyal.jpg");
             background-size: cover;
             /* Ajusta o tamanho da imagem para cobrir o fundo */
             background-repeat: no-repeat;
@@ -13,34 +13,21 @@
         }
 
         .header {
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 5px;
-            width: 800px;
-            border: 1px solid black;
-            padding: 10px;
+            padding-bottom: 5px;
         }
 
         .content {
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 5px;
-            width: 800px;
-            height: 600px;
-            border: 1px solid black;
-            padding: 10px;
+            background-image: url("../img/kardec.png");
+            background-size: cover;
+            /* Ajusta o tamanho da imagem para cobrir o fundo */
+            background-repeat: no-repeat;
+            /* Evita que a imagem se repita */
             opacity: 0.6;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
+            height: 550px;
         }
 
         .footer {
-            margin-left: auto;
-            margin-right: auto;
-            width: 800px;
-            border: 1px solid silver;
-            padding: 10px;
+            padding-top: 5px;
         }
 
         .content-text {
@@ -49,50 +36,72 @@
             font-weight: 800;
             font-family: Arial, Helvetica, sans-serif;
             background-color: white;
-            margin-bottom: 20px;        
+            position: absolute;
+            bottom: 15%;
+            width: 98%;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
 
         .header-text {
             text-align: center;
-            font-size: 20px;
-            font-weight: 500;
+            font-size: 16px;
+            font-weight: bold;
             background-color: black;
-            opacity: 0.7;
+            opacity: 0.6;
             color: white;
             font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
         }
 
         .footer-text {
-            background-color: white;
-            opacity: 0.6;
             font-weight: bold;
-            font-size: 20px;
+            background-color: black;
+            opacity: 0.6;
+            font-size: 16px;
             text-align: right;
             font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
         }
 
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .conteiner {
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            border: 1px solid white;
+            padding: 5px;
+            position: relative;
+        }
     </style>
     <title>Evangelho</title>
 </head>
 
 <body>
 
-    <div class="header">
-        <div class="header-text">CAPA</div>
-    </div>
+    <div class="conteiner">
 
-    <div class="content">
-        <div class="content-text">
-            O EVANGELHO SEGUNDO O ESPIRITISMO
+        <div class="header">
+            <div class="header-text">CAPA</div>
         </div>
-    </div>
 
-    <div class="footer">
-        <div class="footer-text">
-            INTRODUÇÃO >>
+        <div class="content">
+            <div class="content-text">
+                O EVANGELHO SEGUNDO O ESPIRITISMO
+            </div>
         </div>
-    </div>
 
+        <div class="footer">
+            <div class="footer-text">
+                <a href="/prefacio/prefacio.html">PREFÁCIO >></a>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
